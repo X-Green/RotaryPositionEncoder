@@ -602,7 +602,7 @@
     (pad "1" smd roundrect (at -0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 49 "/RS485_A") (pintype "passive") (tstamp 2c77352f-0342-4b77-ab94-96fd04da436b))
     (pad "2" smd roundrect (at 0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 2 "GND") (pintype "passive") (tstamp 00c25b6a-a0c3-4a00-bbbe-d3301618601a))
+      (net 1 "+5V") (pintype "passive") (tstamp 00c25b6a-a0c3-4a00-bbbe-d3301618601a))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2740,9 +2740,9 @@
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c085d493-9c09-47ae-ba0c-c985ee0ec812))
     (pad "1" smd roundrect (at -0.825 0 180) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 1 "+5V") (pintype "passive") (tstamp 5cf8d5f2-ea68-4248-9d22-77bc526460ff))
+      (net 70 "/RS485_B") (pintype "passive") (tstamp 5cf8d5f2-ea68-4248-9d22-77bc526460ff))
     (pad "2" smd roundrect (at 0.825 0 180) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 70 "/RS485_B") (pintype "passive") (tstamp 876a8333-51f4-405e-b7b2-b8709d78b243))
+      (net 2 "GND") (pintype "passive") (tstamp 876a8333-51f4-405e-b7b2-b8709d78b243))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
